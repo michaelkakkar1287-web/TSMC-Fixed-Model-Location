@@ -1,6 +1,6 @@
 # TSMC Global Facility Network Design
 
-This project uses a facility-network-design optimization model to study how TSMC could structure its advanced-node manufacturing footprint. Given a set of candidate fab locations and regional demand, the model chooses which fabs to open and how to route production so that total cost is minimized. Total cost combines four pieces: fixed facility investment, production, transportation, and a penalty for any demand left unfilled.
+This project uses a facility-network-design optimization model to study how TSMC could structure its advanced-node manufacturing footprint. Given a set of candidate fab locations and regional demand, the model chooses which fabs to open and how to route production so that total cost is minimized. Total cost combines four pieces: fixed facility investment, production, transportation, and a penalty for any demand left unfilled.  We used over 106+ decisions to come up with a solution.
 
 The analysis focuses on three leading-edge process nodes (roughly 2/3nm, 5nm, and 7nm), which make up the large majority of TSMC's wafer revenue. Demand is spread across six global hubs (Silicon Valley, Austin, Shenzhen, Seoul, Munich, and Tokyo), and production can be placed at six candidate sites (Hsinchu, Tainan, Kaohsiung, Arizona, Taichung, and Japan). The optimization runs as a linear program in Excel Solver.
 
